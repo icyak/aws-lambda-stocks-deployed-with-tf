@@ -1,0 +1,21 @@
+name: TF destroy
+on: workflow_dispatch
+jobs:
+  inicializujem:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Configure AWS Credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-region: eu-west-1
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+    - name: Setup terraform
+      uses: hashicorp/setup-terraform@v2
+    - run: terraform init
+    - id: plan
+      run: terraform plan -no-color -destroy -lock=false
+    - id: apply 
+      run: terraform destroy -auto-approve -lock=false

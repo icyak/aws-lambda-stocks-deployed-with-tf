@@ -1,0 +1,5 @@
+.terraform
+!schemas/
+.tfstate.backup
+.tfstate
+.zip
