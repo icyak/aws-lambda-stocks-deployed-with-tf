@@ -48,12 +48,12 @@ No modules.
 | <a name="input_lambda_function_handler"></a> [lambda\_function\_handler](#input\_lambda\_function\_handler) | Name of Lambda function handler | `string` | `"lambda_function.lambda_handler"` | no |
 | <a name="input_lambda_function_name"></a> [lambda\_function\_name](#input\_lambda\_function\_name) | Name of Lambda itself | `string` | `"Get-stock-prices-tf"` | no |
 | <a name="input_lambda_function_variable_stock_cad"></a> [lambda\_function\_variable\_stock\_cad](#input\_lambda\_function\_variable\_stock\_cad) | List of Canadian stocks | `string` | `"OCO.V"` | no |
-| <a name="input_lambda_function_variable_stock_chf"></a> [lambda\_function\_variable\_stock\_chf](#input\_lambda\_function\_variable\_stock\_chf) | List of Swiss stocks | `string` | `"SREN.SW,NESN.SW"` | no |
+| <a name="input_lambda_function_variable_stock_chf"></a> [lambda\_function\_variable\_stock\_chf](#input\_lambda\_function\_variable\_stock\_chf) | List of Swiss stocks | `string` | `"SREN.SW"` | no |
 | <a name="input_lambda_function_variable_stock_eng"></a> [lambda\_function\_variable\_stock\_eng](#input\_lambda\_function\_variable\_stock\_eng) | List of English stocks | `string` | `"BP.L"` | no |
-| <a name="input_lambda_function_variable_stock_eu"></a> [lambda\_function\_variable\_stock\_eu](#input\_lambda\_function\_variable\_stock\_eu) | List of EU stocks | `string` | `"SXR8.DE,EUN2.DE,SXRT.DE,IS3N.DE,EUNL.DE,IUSE.SW,SXRV.DE,QDVE.DE,LYMS.DE,SAWD.MI,ENG.MC,VWCE.DE"` | no |
-| <a name="input_lambda_function_variable_stock_usa"></a> [lambda\_function\_variable\_stock\_usa](#input\_lambda\_function\_variable\_stock\_usa) | List of USA stocks | `string` | `"O,XOM,IUIT.SW,TWTR,AMD,T,KO,WM,TRVG,PLTR,DISH,GE,DDOG,GM,ITI,MO,SPCE,NEE,LAC,INTC,VALE,VZ,RIVN,EVGO,SPLK,INVZ,HRZN,PSEC,BABA,ATVI,RIVN,TSLA,MCD,YUM,DPZ,PZZA,CMG,SBUX,PYPL,BABA,DDOG,MT,F,TWTR,JNJ,D,ORC,ABR,GLAD,ENB,UL,ARCC,PEP,SO,KMI,BTI,STAG,GOOD,KHC,WBA,NRZ,SBR,ET,STOR,EPD,MPLX,CAG,OKE,CVX,HPE,F,C,JPM,USB,MS,WBD,KMI,VIRI"` | no |
+| <a name="input_lambda_function_variable_stock_eu"></a> [lambda\_function\_variable\_stock\_eu](#input\_lambda\_function\_variable\_stock\_eu) | List of EU stocks | `string` | `"SXR8.DE"` | no |
+| <a name="input_lambda_function_variable_stock_usa"></a> [lambda\_function\_variable\_stock\_usa](#input\_lambda\_function\_variable\_stock\_usa) | List of USA stocks | `string` | `"MSFT"` | no |
 | <a name="input_lambda_name"></a> [lambda\_name](#input\_lambda\_name) | Name of Lambda itself | `string` | `"lambda-stocks"` | no |
-| <a name="input_output_bucket"></a> [output\_bucket](#input\_output\_bucket) | Default bucket for output files | `string` | `"icyak-stocks-api-v2"` | no |
+| <a name="input_output_bucket"></a> [output\_bucket](#input\_output\_bucket) | Default bucket for output files | `string` | `"uniq-s3bucket-name-stocks-change-as-you-want"` | no |
 
 ## Outputs
 
